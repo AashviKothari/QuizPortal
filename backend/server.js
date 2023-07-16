@@ -14,7 +14,7 @@ res.status(500).send({ message: err.message});
 })
 
 require("dotenv").config()
-const cors = require("cors")
+// const cors = require("cors")
 const db = require("./config/dbConfig")
 const userRoute = require("./routes/userRoutes")
 const examRoute = require("./routes/examRoutes")
@@ -22,7 +22,7 @@ const reportRoute = require("./routes/reportRoutes")
 
 const PORT = process.env.PORT || 5000
 
-app.use(cors())
+// app.use(cors())
 app.use(express.json())
 
 app.use("/api/users",userRoute)
