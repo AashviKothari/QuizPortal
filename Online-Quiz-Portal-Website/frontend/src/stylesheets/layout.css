@@ -1,0 +1,52 @@
+.layout{
+  padding: 15px;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    gap: 15px;
+}
+
+.active-menu-item{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.body{
+  width: 100% 
+}
+
+.header{
+  background-color: var(--primary);
+  color: white !important;
+  width: 100%; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content{
+
+}
+
+
+.cursor-pointer{
+    cursor: pointer;
+}

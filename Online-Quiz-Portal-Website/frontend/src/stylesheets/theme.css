@@ -1,0 +1,30 @@
+:root {
+    --primary: #0F3460;
+    --secondary: #ff5722;
+    --success: #4caf50;
+    --info: #00bcd4;
+    --warning: #ff9800;
+    --danger: #f44336;
+    --light: #f1f1f1;
+    --dark: #212121;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-white{
+    background-color: var(--light) !important;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+.bg-warning{
+    background-color: var(--warning);
+}
