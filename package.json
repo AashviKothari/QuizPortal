@@ -1,0 +1,31 @@
+{
+  "name": "online-quiz-portal-website",
+  "version": "1.0.0",
+  "description": "## Features: * Working with complex MongoDB, queries, schemas, models. * Separate User Interfaces for Users, Admins. * JWT Authentication and Password Hashing. * Admin can add exams with questions , options and answers. * Real time updates for all the crud operations in Questions and Exams Module. * Timer functionality for Exam Sessions. * Live Result Functionality after writting the exams. * Storing the results into Mongo DB. * Separate Reports / Analatics functionality for both Admin and User.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AashviKothari/QuizPortal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AashviKothari/QuizPortal/issues"
+  },
+  "homepage": "https://github.com/AashviKothari/QuizPortal#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}

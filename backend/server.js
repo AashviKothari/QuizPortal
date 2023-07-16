@@ -1,5 +1,18 @@
 const express = require("express")
 const app = express()
+
+const path = require("path");
+app.use(express.urlencoded({ extended: true }))
+const _dirname = path.resolve();
+app.use(express.static(path.join(_dirname, "/frontend/build")));
+app.get("*",(req,res)=>{
+res.sendFile(path.join(_dirname, "/frontend/build/index.html"))
+});
+
+app.use((err, req, res, next)=>{
+res.status(500).send({ message: err.message});
+})
+
 require("dotenv").config()
 const cors = require("cors")
 const db = require("./config/dbConfig")
