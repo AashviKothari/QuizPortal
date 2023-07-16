@@ -21,6 +21,3 @@
 #### Database:
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 
-## Demonstration:
-https://user-images.githubusercontent.com/88584574/223217847-2e5047ed-9901-4236-b956-24d542163e2c.mp4
-
