@@ -10,7 +10,7 @@ const userRoute = require("./routes/userRoutes")
 const examRoute = require("./routes/examRoutes")
 const reportRoute = require("./routes/reportRoutes")
 
-const PORT = process.env.PORT || 5000
+const port = process.env.PORT || 5000
 
 // app.use(cors())
 app.use(express.json())
@@ -35,6 +35,6 @@ res.status(500).send({ message: err.message});
 
 
 
-app.listen(PORT,()=>{
-console.log(`Server is running on PORT: ${PORT}`)
+app.listen(port,()=>{
+console.log(`Server is running on PORT: ${port}`)
 })
