@@ -22,7 +22,7 @@ app.use("/api/exams",examRoute)
 app.use("/api/reports",reportRoute)
 
 
-app.use(express.urlencoded({ extended: true }))
+// app.use(express.urlencoded({ extended: true }))
 const _dirname = path.resolve();
 app.use(express.static(path.join(_dirname, "/frontend/build")));
 app.get("*",(req,res)=>{
