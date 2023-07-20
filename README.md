@@ -1,4 +1,4 @@
-# Online-Quiz-Portal-Website
+# Online-Quiz-Portal-Website (MERN)
 
 ## Features:
 * Working with complex MongoDB, queries, schemas, models.
