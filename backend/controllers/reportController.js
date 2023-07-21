@@ -2,7 +2,7 @@ const Report = require("../models/reportModel")
 const Exam = require("../models/examModel")
 const User = require("../models/userModel")
 
-//add attempt
+//add attempts
 
 const addReport = async(req,res) => {
     try{
